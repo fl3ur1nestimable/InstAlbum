@@ -1,8 +1,14 @@
 import { LuInstagram, LuFacebook, LuLinkedin } from 'react-icons/lu'
 import { FaSquareXTwitter , FaTiktok, FaSquareYoutube} from 'react-icons/fa6'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '../Utils/LanguageSwitcher'
+
 
 const Footer = () => {
+    
+    const { t } = useTranslation();
+
     return (
         <>
             <footer className='p-4 bg-blue-dark flex flex-col items-center gap-4'>
@@ -20,10 +26,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='text-sm flex flex-col md:flex-row items-center justify-between w-full gap-4'>
-                    <button className='border-2 bg-blue-pale border-white rounded-md p-2'>
-                        Français
-                    </button>
-                    <p className='text-white'>&copy; InstAlbum. All rights reserved.</p>
+                    <LanguageSwitcher />
+                    <p className='text-white'>&copy; InstAlbum. {t('footer.copyright')}</p>
                 </div>
             </footer>
         </>

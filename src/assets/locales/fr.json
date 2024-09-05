@@ -1,0 +1,38 @@
+{
+    "header": {
+        "create": "Créer",
+        "howto": "Comment utiliser",
+        "about": "À propos"
+    },
+    "footer": {
+        "copyright": "Tous droits réservés"
+    },
+    "home": {
+        "section1": {
+            "title": "Transformez vos souvenirs en histoires instantanées Polaroid",
+            "subtitle": "Ajoutez vos moments préférés, stylisez-les en Polaroids nostalgiques, et transformez-les en GIFs ou vidéos en quelques secondes.",
+            "button": "Créer maintenant"
+        },
+        "section2": {
+            "title": "Pourquoi InstAlbum ?",
+            "card1": {
+                "title": "Stylisation Polaroid",
+                "content": "Transformez vos photos en Polaroids classiques et nostalgiques d'un simple clic."
+            },
+            "card2": {
+                "title": "Personnalisation",
+                "content": "Ajoutez des légendes, choisissez parmi différents styles, et personnalisez vos photos Polaroid pour qu'elles racontent votre histoire."
+            },
+            "card3": {
+                "title": "Gratuit",
+                "content": "Profitez de toutes les fonctionnalités d'InstAlbum entièrement gratuitement, sans coûts cachés ni abonnements."
+            }
+        },
+        "section3": {
+            "title": "C'est à vous de jouer !",
+            "subtitle": "Capturez vos moments préférés, revivez-les avec une touche nostalgique, et partagez vos histoires avec le monde.",
+            "message": "Aimé par les créateurs du monde entier. Rejoignez-nous maintenant et commencez à transformer vos souvenirs.",
+            "button": "Commencer !"
+        }
+    }
+}

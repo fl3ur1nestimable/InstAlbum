@@ -1,18 +1,21 @@
 import { NavLink } from 'react-router-dom'
 import { LuMenu,LuX } from 'react-icons/lu'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
+
 
 const NavLinks = () => {
+    const { t } = useTranslation();
     return (
         <>
             <NavLink to="/create">
-                Create
+                {t('header.create')}
             </NavLink>
             <NavLink to="/how-to-use">
-                How to use
+                {t('header.howto')}
             </NavLink>
             <NavLink to="/about">
-                About
+                {t('header.about')}
             </NavLink>
         </>
     )

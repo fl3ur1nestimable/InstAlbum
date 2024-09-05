@@ -1,0 +1,38 @@
+{
+    "header" :{
+        "create" : "Create",
+        "howto" : "How to use",
+        "about" : "About"
+    },
+    "footer" :{
+        "copyright" : "All rights reserved"
+    },
+    "home" :{
+        "section1" :{
+            "title" : "Transform Your Memories into Instant Polaroid Stories",
+            "subtitle" :"Upload your favorite moments, style them as nostalgic Polaroids, and turn them into GIFs or videos in seconds.",
+            "button" : "Create Now"
+        },
+        "section2" :{
+            "title" : "Why InstAlbum ?",
+            "card1":{
+                "title" : "Polaroid Styling",
+                "content" : "Transform your photos into classic, nostalgic Polaroids with just a click."  
+            },
+            "card2" :{
+                "title" : "Customization",
+                "content" : "Add captions, choose from various styles, and personalize your Polaroid photos to fit your story."             
+            },
+            "card3" :{
+                "title" : "Free to use",
+                "content" : "Enjoy all the features of InstAlbum completely free, with no hidden costs or subscriptions."
+            }
+        },
+        "section3" :{
+            "title" : "Get Started Today !",
+            "subtitle" : "Capture your favorite moments, relive them with a nostalgic touch, and share your stories with the world.",
+            "message" : "Loved by creators around the world. Join now and start transforming your memories.",
+            "button" : "Start Creating !"
+        }
+    }
+}

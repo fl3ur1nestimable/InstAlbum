@@ -15,6 +15,7 @@ export default {
       "black" :"#000000",
       "red" :"#F97171",
       "rose" :"#F99192",
+      "rose-pale" :"#FFD9D9"
     },
   },
   plugins: [],
