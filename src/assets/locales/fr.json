@@ -34,5 +34,51 @@
             "message": "Aimé par les créateurs du monde entier. Rejoignez-nous maintenant et commencez à transformer vos souvenirs.",
             "button": "Commencer !"
         }
+    },
+    "howTo": {
+        "title": "Comment utiliser InstAlbum",
+        "section1": {
+            "title": "Importez vos photos",
+            "text": "Commencez par télécharger vos photos ou faites-les glisser ici. Vous pouvez télécharger plusieurs images à la fois pour créer une collection mémorable."
+        },
+        "section2": {
+            "title": "Personnalisez chaque Polaroid",
+            "subsection1": {
+                "title": "Ajouter du texte",
+                "text": "Rédigez une légende ou une description pour raconter l'histoire derrière votre photo."
+            },
+            "subsection2": {
+                "title": "Définir la date",
+                "text": "Capturez le moment exact en définissant une date pour votre Polaroid."
+            },
+            "subsection3": {
+                "title": "Couleur de la bordure",
+                "text": "Choisissez parmi une variété de couleurs pour donner un style unique à votre Polaroid."
+            },
+            "subsection4": {
+                "title": "Appliquer des styles photo",
+                "text": "Choisissez parmi des styles pré-définis ou personnalisez vos Polaroids selon votre style."
+            }
+        },
+        "section3": {
+            "title": "Exporter votre création",
+            "subtitle": "Lorsque vous avez terminé, choisissez comment vous souhaitez partager votre création",
+            "options": {
+                "gif": {
+                    "title": "Créer un GIF",
+                    "text": "Transformez vos photos en une animation en boucle."
+                },
+                "video": {
+                    "title": "Créer une vidéo",
+                    "text": "Combinez vos Polaroids dans un diaporama vidéo."
+                },
+                "download": {
+                    "title": "Photos stylisées",
+                    "text": "Téléchargez vos images au style Polaroid individuellement ou en tant que collection."
+                }
+            }
+        },
+        "bottom-text": "Et voilà ! Vous êtes prêt à partager vos histoires Polaroid avec le monde.",
+        "button": "Commencer à créer !"
     }
 }

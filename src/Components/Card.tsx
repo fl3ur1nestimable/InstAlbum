@@ -1,13 +1,12 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 
-interface HomeCardProps {
-    sectionId : number;
-    cardId: number;
+interface CardProps {
+    content : string[];
     imgSrc: string;
 }
 
-const HomeCard: React.FC<HomeCardProps> = ({sectionId, cardId, imgSrc}) => {
+const Card: React.FC<CardProps> = ({content ,imgSrc}) => {
     const { t } = useTranslation();
 
     return (
@@ -26,14 +25,14 @@ const HomeCard: React.FC<HomeCardProps> = ({sectionId, cardId, imgSrc}) => {
                         flex-1'
                         >
             <h3 className='text-red font-bold text-3xl'>
-                {t(`home.section${sectionId}.card${cardId}.title`)}
+                {t(content[0])}
             </h3>
             <img src={imgSrc} alt="Card" className='rounded-md w-36 h-36'/>
             <p className='text-black text-xl'>
-                {t(`home.section${sectionId}.card${cardId}.content`)}
+                {t(content[1])}
             </p>
         </div>
     )
 }
 
-export default HomeCard
+export default Card

@@ -34,5 +34,51 @@
             "message" : "Loved by creators around the world. Join now and start transforming your memories.",
             "button" : "Start Creating !"
         }
+    },
+    "howTo":{
+        "title" : "How to use InstAlbum",
+        "section1":{
+            "title" : "Import Your Photos",
+            "text" : "Start by uploading your photos or drag-and-drop them here. You can upload multiple images at once to create a memorable collection."
+        },
+        "section2":{
+            "title" : "Personalize Each Polaroid",
+            "subsection1" :{
+                "title" : "Add Text",
+                "text" : "Write a caption or description to tell the story behind your photo."
+            },
+            "subsection2" :{
+                "title" : "Set the Date",
+                "text" : "Capture the exact moment by setting a date for your Polaroid."
+            },
+            "subsection3" :{
+                "title" : "Customize the Border Color",
+                "text" : "Choose from a variety of colors to give your Polaroid a unique style."
+            },
+            "subsection4" :{
+                "title" : "Apply Photo Styles",
+                "text" : "Choose from pre-set styles or customize your Polaroids to match your vibe."
+            }
+        },
+        "section3":{
+            "title" : "Export Your Creation",
+            "subtitle" : "When you're done, choose how you'd like to share your creation",
+            "options" : {
+                "gif" : {
+                    "title" : "Create a GIF",
+                    "text" : "Turn your photos into a looping animation."
+                },
+                "video" : {
+                    "title" : "Make a Video",
+                    "text" : "Combine your Polaroids into a video slideshow."
+                },
+                "download" : {
+                    "title" : "Stylized Photos",
+                    "text" : "Download your Polaroid-style images individually or as a collection."
+                }
+            }
+        },
+        "bottom-text" : "And there you have it! You are ready to share your Polaroid stories with the world.",
+        "button" : "Start Creating !"
     }
 }
