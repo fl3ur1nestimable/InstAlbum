@@ -80,5 +80,23 @@
         },
         "bottom-text": "Et voilà ! Vous êtes prêt à partager vos histoires Polaroid avec le monde.",
         "button": "Commencer à créer !"
+    },
+    "about": {
+        "section1": {
+            "title": "Notre Mission",
+            "text": "Chez InstAlbum, nous croyons que chaque moment mérite d'être chéri. Notre mission est de transformer vos souvenirs numériques en créations nostalgiques au style Polaroid que vous pouvez partager avec vos amis, votre famille ou le monde entier. Qu'il s'agisse d'une simple photo ou d'un album entier, InstAlbum vous permet de personnaliser, styliser et donner vie à vos histoires."
+        },
+        "section2": {
+            "title": "Notre Histoire",
+            "text": "InstAlbum est né d'une passion pour la photographie et de la nostalgie des photos imprimées. Nous voulions recréer la magie de tenir un Polaroid physique entre vos mains, tout en exploitant la puissance de la création numérique. Depuis notre lancement, nous avons aidé des utilisateurs du monde entier à créer, personnaliser et partager leurs souvenirs préférés de manière ludique et facile à utiliser."
+        },
+        "section3": {
+            "title": "Derrière l'Objectif",
+            "text": "InstAlbum est alimenté par une petite mais passionnée équipe de développeurs, de designers et de créatifs. Notre objectif est de vous aider à donner vie à vos souvenirs, un Polaroid à la fois."
+        },
+        "section4": {
+            "title": "Faites Partie de Notre Aventure",
+            "text": "Nous travaillons constamment sur de nouvelles fonctionnalités et des moyens d'améliorer votre expérience. Suivez-nous sur les réseaux sociaux pour rester informé, partager vos créations et rejoindre notre communauté grandissante de créateurs de souvenirs."
+        }
     }
 }

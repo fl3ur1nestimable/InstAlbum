@@ -80,5 +80,37 @@
         },
         "bottom-text" : "And there you have it! You are ready to share your Polaroid stories with the world.",
         "button" : "Start Creating !"
+    },
+    "about" : {
+        "section1" :{
+            "title" :"Our Mission",
+            "text": "At InstAlbum, we believe every moment deserves to be cherished. Our mission is to transform your digital memories into nostalgic Polaroid-style creations that you can share with friends, family, or the world. Whether it's a simple photo or an entire album, InstAlbum makes it easy to personalize, stylize, and bring your stories to life."
+        },
+        "section2" :{
+            "title" :"Our Story",
+            "text": "InstAlbum was born out of a love for photography and the nostalgia of printed photos. We wanted to recreate the magic of holding a physical Polaroid in your hands, while leveraging the power of digital creation. Since our launch, we've helped users around the globe create, customize, and share their favorite memories in a fun, easy-to-use format."
+        },
+        "section3" :{
+            "title" :"Behind the Lens",
+            "text": "InstAlbum is powered by a small but passionate team of developers, designers, and creatives. Our goal is to help you bring your memories to life, one Polaroid at a time.",
+            "team" :{
+                "member1" :{
+                    "name" :"Alice",
+                    "role" :"Lead Developer"
+                },
+                "member2" :{
+                    "name" :"Eva",
+                    "role" :"Designer"
+                },
+                "member3" :{
+                    "name" :"Jack",
+                    "role" :"Creative Director"
+                }
+            }
+        },
+        "section4" :{
+            "title" :"Be Part of Our Journey",
+            "text": "We’re always working on new features and ways to enhance your experience. Follow us on social media to stay updated, share your creations, and connect with our growing community of memory-makers."
+        }
     }
 }
