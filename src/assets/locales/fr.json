@@ -112,5 +112,12 @@
             "title": "Faites Partie de Notre Aventure",
             "text": "Nous travaillons constamment sur de nouvelles fonctionnalités et des moyens d'améliorer votre expérience. Suivez-nous sur les réseaux sociaux pour rester informé, partager vos créations et rejoindre notre communauté grandissante de créateurs de souvenirs."
         }
+    },
+    "create" :{
+        "bg" : "Arrière-plan",
+        "text" :"Couleur texte",
+        "placeholder" : "Ajouter une légende...",
+        "locale" : "fr-FR",
+        "del" : "Supprimer"
     }
 }

@@ -10,7 +10,7 @@ const Home = () => {
     const { t } = useTranslation();
 
     return (
-        <div>
+        <div className='font-arista'>
             <Header />
             <section className='flex flex-col-reverse md:flex-row items-center md:items-stretch justify-between p-4 xl:pr-40 xl:pl-40 gap-4'>
                 <div className='flex flex-col items-center md:items-start gap-10 text-center md:text-left'>

@@ -16,7 +16,7 @@ const HowToUse = () => {
     TutorialStep(t('howTo.section2.subsection4.title'), t('howTo.section2.subsection4.text'), './imgs/step4.png'),
   ];
   return (
-    <>
+    <div className='font-arista'>
       <Header />
       <div className='p-4 xl:pr-40 xl:pl-40'>
         <h1 className='font-bold text-red text-4xl lg:text-6xl text-center'>
@@ -63,7 +63,7 @@ const HowToUse = () => {
         </section>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

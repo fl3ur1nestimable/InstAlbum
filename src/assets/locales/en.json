@@ -112,5 +112,12 @@
             "title" :"Be Part of Our Journey",
             "text": "We’re always working on new features and ways to enhance your experience. Follow us on social media to stay updated, share your creations, and connect with our growing community of memory-makers."
         }
+    },
+    "create" :{
+        "bg" : "Background",
+        "text" :"Text Color",
+        "placeholder" : "Add captions...",
+        "locale" : "en-US",
+        "del" : "Delete"
     }
 }

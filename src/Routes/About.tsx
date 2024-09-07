@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 const About = () => {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className='font-arista'>
       <Header />
       <div className='p-4 xl:pr-40 xl:pl-40'>
         <section className='flex flex-col-reverse md:flex-row gap-10 items-center md:items-stretch md:justify-between mt-4 p-4'>

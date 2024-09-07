@@ -11,7 +11,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className='p-4 bg-blue-dark flex flex-col items-center gap-4'>
+            <footer className='p-4 bg-blue-dark flex flex-col items-center gap-4 font-arista'>
                 <div className='flex flex-col md:flex-row items-center justify-between w-full gap-4'>
                     <NavLink to='/' className='text-red font-bold text-4xl'>
                         InstAlbum

@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        arista : ['Arista'],
+      },
+      width:{
+        "128" : "32rem",
+      }
     },
     colors: {
       "blue-dark" :"#385A7C",
