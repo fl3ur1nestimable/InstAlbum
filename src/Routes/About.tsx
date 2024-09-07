@@ -39,11 +39,26 @@ const About = () => {
             className='w-60 rounded-md h-60 object-cover'
           />
         </section>
-        <section>
-
+        <section className='flex flex-col justify-center mt-4 gap-4 p-8 rounded-md'>
+          <h2 className='text-blue-dark text-4xl lg:text-6xl text-center font-bold'>
+            {t('about.section3.title')}
+          </h2>
+          <p className='text-black text-xl text-center'>
+            {t('about.section3.text')}
+          </p>
+          <div className='flex flex-col lg:flex-row lg:justify-center items-center lg:items-stretch'>
+              <Card content={['about.section3.team.member1.name','about.section3.team.member1.role']} imgSrc='./imgs/woman.png' />
+              <Card content={['about.section3.team.member2.name','about.section3.team.member2.role']} imgSrc='./imgs/woman.png' />
+              <Card content={['about.section3.team.member3.name','about.section3.team.member3.role']} imgSrc='./imgs/man.png' />
+          </div>
         </section>
-        <section>
-
+        <section className='flex flex-col items-center gap-4 mt-8 mb-8'>
+          <h2 className='text-red text-4xl lg:text-6xl text-center font-bold mt-8'>
+            {t('about.section4.title')}
+          </h2>
+          <p className='text-black text-xl text-center'>
+            {t('about.section4.text')}
+          </p>
         </section>
       </div>
       <Footer />

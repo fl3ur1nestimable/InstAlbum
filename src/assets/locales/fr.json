@@ -39,7 +39,7 @@
         "title": "Comment utiliser InstAlbum",
         "section1": {
             "title": "Importez vos photos",
-            "text": "Commencez par télécharger vos photos ou faites-les glisser ici. Vous pouvez télécharger plusieurs images à la fois pour créer une collection mémorable."
+            "text": "Commencez par importer vos photos ou faites-les glisser ici. Vous pouvez importer plusieurs images à la fois pour créer une collection mémorable."
         },
         "section2": {
             "title": "Personnalisez chaque Polaroid",
@@ -92,7 +92,21 @@
         },
         "section3": {
             "title": "Derrière l'Objectif",
-            "text": "InstAlbum est alimenté par une petite mais passionnée équipe de développeurs, de designers et de créatifs. Notre objectif est de vous aider à donner vie à vos souvenirs, un Polaroid à la fois."
+            "text": "InstAlbum est alimenté par une petite mais passionnée équipe de développeurs, de designers et de créatifs. Notre objectif est de vous aider à donner vie à vos souvenirs, un Polaroid à la fois.",
+            "team": {
+                "member1": {
+                    "name": "Alice",
+                    "role": "Développeuse Principale"
+                },
+                "member2": {
+                    "name": "Eva",
+                    "role": "Designer"
+                },
+                "member3": {
+                    "name": "Jack",
+                    "role": "Directeur Créatif"
+                }
+            }
         },
         "section4": {
             "title": "Faites Partie de Notre Aventure",
