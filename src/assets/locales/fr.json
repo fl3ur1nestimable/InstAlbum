@@ -114,10 +114,12 @@
         }
     },
     "create" :{
+        "msg" : "Importez une image pour commencer",
         "bg" : "Arrière-plan",
         "text" :"Couleur texte",
         "placeholder" : "Ajouter une légende...",
         "locale" : "fr-FR",
-        "del" : "Supprimer"
+        "del" : "Supprimer",
+        "dl" : "Télécharger"
     }
 }

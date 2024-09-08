@@ -114,10 +114,12 @@
         }
     },
     "create" :{
+        "msg" : "Add your photos to get started",
         "bg" : "Background",
         "text" :"Text Color",
         "placeholder" : "Add captions...",
         "locale" : "en-US",
-        "del" : "Delete"
+        "del" : "Delete",
+        "dl" : "Download"
     }
 }

@@ -25,7 +25,7 @@ const OptionsBar: React.FC<OptionsBarProps> = ({onChangeBorderColor, onChangeTex
   }
 
   return (
-    <div className="flex flex-col md:flex-row md:items-center gap-4 p-4 bg-blue-pale rounded-md shadow-md">
+    <div className="flex flex-col gap-4 p-4 bg-blue-pale rounded-md shadow-md">
       <label className='flex gap-2'>
         {t('create.bg')} : 
         <input type="color"  value={data.borderColor} onChange={(e) => onChangeBorderColor(e.target.value)} className='cursor-pointer border-none'/>
