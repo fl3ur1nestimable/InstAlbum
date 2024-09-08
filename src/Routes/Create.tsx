@@ -63,7 +63,7 @@ const Create: React.FC = () => {
             />
           </div>
         ) : (
-          <div className="absolute top-1/2 flex justify-center items-center">
+          <div className=" flex justify-center items-center">
             <p className="text-2xl text-blue-dark font-semibold">
               {t('create.msg')}
             </p>
