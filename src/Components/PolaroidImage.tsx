@@ -2,7 +2,7 @@ import React from 'react';
 import OptionsBar from './OptionsBar';
 import { useTranslation } from 'react-i18next';
 import { ImageData } from '../Routes/Create';
-import { useToSvg } from '@hugocxl/react-to-image';
+import { useToPng } from '@hugocxl/react-to-image';
 
 interface PolaroidImageProps {
     image: ImageData;
@@ -14,12 +14,12 @@ interface PolaroidImageProps {
 const PolaroidImage: React.FC<PolaroidImageProps> = ({ image, onDelete, id, onEdit }) => {
     const { t } = useTranslation();
     
-    const [, convertToSvg] = useToSvg<HTMLDivElement>({
+    const [, convertToPng] = useToPng<HTMLDivElement>({
         selector: '#polaroid',
         onSuccess: (data) => {
             const link = document.createElement('a');
             link.href = data;
-            link.download = 'polaroid-image.svg';
+            link.download = 'polaroid-image.png';
             link.click();
         }
     });
@@ -62,7 +62,7 @@ const PolaroidImage: React.FC<PolaroidImageProps> = ({ image, onDelete, id, onEd
         </div>
             <button
                 className="mt-4 p-2 bg-blue-dark text-white rounded mb-8"
-                onClick={() => convertToSvg()}
+                onClick={() => convertToPng()}
             >
                 {t('create.dl')}
             </button>
